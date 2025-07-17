@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
         carouselItems[currentItem].classList.add('active');
     }
 
-    setInterval(showNextItem, 3000); // Cambia cada 3 segundos
+    setInterval(showNextItem, 3000); 
 
-    // Mostrar el primer elemento durante 2 segundos
+   
     setTimeout(showNextItem, 2000);
 });
