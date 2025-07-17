@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/registrate.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <CENTER><h1 class="form-h2">TMT</h1></CENTER>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-input">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-input">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
+                        </div>
+                        <div class="form-input">
+                            <label for="dni">DNI:</label>
+                            <input type="number" id="dni" name="dni" placeholder="Ingresa tu DNI">
+                        </div>
+                        <div class="form-input">
+                            <label for="localidad">Localidad:</label>
+                            <select id="localidad">
+                                <option value="">Selecciona una opción</option>
+                                <option value="gonzalez_catan">González Catán</option>
+                                <option value="san_justo">San Justo</option>
+                            </select>
+                        </div>
+                        <div class="form-input">
+                            <label for="pais">País:</label>
+                            <select id="pais">
+                                <option value="">Selecciona una opción</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="brasil">Brasil</option>
+                                <option value="paraguay">Paraguay</option>
+                                <option value="españa">España</option>
+                                <option value="bolivia">Bolivia</option>
+                                <option value="francia">Francia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <button id="botonValidar" type="submit">ENVIAR</button>
+                </div>
+                <div class="row">
+                    <button type="button" onclick="history.back()">VOLVER</button>
+                </div>
+            </form>
+            
+        </section>
+    </main>
+    <div class="img">
+        <p><h1>San Justo</h1></p>
+        <img src="IMG/san justo,cedima.jpeg" class="definicion">
+      <p><h1>Gonzalez Catan</h1></p>
+        <img src="IMG/catan.jpeg" class="definicion">
+    
+</body>
+</html>
